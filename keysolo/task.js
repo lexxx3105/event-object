@@ -19,7 +19,7 @@ class Game {
   registerEvents() {
     document.addEventListener("keydown", button => {
       const symbol = this.currentSymbol;
-      if ([32, 65, 67, 69, 83, 84, 91, 92].includes(button.key.charCodeAt())) {
+      if ([18, 25, 35, 47, 69, 74, 88, 92].includes(button.key.charCodeAt())) {
         return
       }
       if (button.repeat) {
